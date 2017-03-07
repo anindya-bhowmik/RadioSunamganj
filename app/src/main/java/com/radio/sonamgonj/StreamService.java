@@ -65,7 +65,7 @@ public class StreamService extends Service {
         // It's very important that you put the IP/URL of your ShoutCast stream here
         // Otherwise you'll get Webcom Radio
         // String url = "http://176.31.115.196:8214/";
-        String url = "http://162.244.81.33:7006/";
+        String url = Constants.STREAMING_URL;
 
         mp = new MediaPlayer();
         mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
